@@ -19,7 +19,7 @@ window.resizable(0,0)
 window.geometry('800x600')
 covid = Covid()
 
-corona = ImageTk.PhotoImage(file='images\\corona.png')
+corona = ImageTk.PhotoImage(file='corona.png')
 bg = Label(window, image=corona)
 bg.pack(fill=BOTH, expand=True)
 
